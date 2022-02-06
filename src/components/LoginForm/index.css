@@ -1,0 +1,144 @@
+.login-form-bcg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.nxt-trendz-sm-logo {
+  display: flex;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.nxt-trendz-lg-logo {
+  width: 40%;
+  align-self: center;
+  display: none;
+}
+
+.nxt-trendz-login-lg-img {
+  width: 40%;
+  display: none;
+}
+
+.nxt-trendz-login-sm-img {
+  display: flex;
+  width: 60%;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 12px;
+}
+
+.username-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.username-password-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.login-input {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #d7dfe9;
+  outline: none;
+  border: 0px;
+}
+
+.login-button {
+  width: 80%;
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 4px;
+  height: 33px;
+  border: 0px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.login-failure-error-message {
+  color: #ff0b37;
+  margin-top: 12px;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-bcg-container {
+    flex-direction: row;
+  }
+
+  .login-form-container {
+    justify-content: space-around;
+    height: 295px;
+    width: 35%;
+  }
+
+  .login-input {
+    margin-top: 8px;
+  }
+
+  .nxt-trendz-lg-logo {
+    display: flex;
+  }
+
+  .nxt-trendz-sm-logo {
+    display: none;
+    width: 40%;
+  }
+
+  .nxt-trendz-login-lg-img {
+    display: flex;
+  }
+
+  .nxt-trendz-login-sm-img {
+    display: none;
+  }
+
+  .username-container {
+    margin-top: 0px;
+  }
+
+  .password-container {
+    margin-top: 0px;
+  }
+
+  .login-button {
+    margin-top: 0px;
+  }
+
+  .login-failure-error-message {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    width: 30%;
+  }
+}
